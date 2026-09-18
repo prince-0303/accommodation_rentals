@@ -26,6 +26,10 @@ Query: "{query}"
 """
 
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 def extract_filters_with_ai(query):
     """Returns a dict of filters, or None if the AI call/parsing failed."""
     try:
@@ -44,5 +48,5 @@ def extract_filters_with_ai(query):
         data = json.loads(text)
         return data
     except Exception as e:
-        print(f"AI extraction failed: {type(e).__name__}: {e}")   # TEMP — remove once fixed
+        logger.warning(f"AI extraction failed: {type(e).__name__}: {e}")
         return None
