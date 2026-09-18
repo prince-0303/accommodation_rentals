@@ -2,7 +2,7 @@
 
 This project is a full-stack accommodation rental platform built with a Django REST Framework backend and a React frontend. It allows users to search properties using standard filters as well as AI-powered natural-language queries.
 
-## 📋 Features Checklist
+## Features Checklist
 - [x] **User registration and login**: Integrated with Django user model and React frontend.
 - [x] **JWT authentication**: Uses `rest_framework_simplejwt` for secure API access.
 - [x] **Property listing & details**: Browse available properties with detailed views.
@@ -17,7 +17,7 @@ This project is a full-stack accommodation rental platform built with a Django R
 
 ---
 
-## 🏗️ Architecture & Design Choices
+## Architecture & Design Choices
 
 While **React**, **PostgreSQL**, and **JWT Authentication** were explicitly required for this task, the following technical decisions were made for the remaining stack to ensure a robust and scalable product within the 48-hour deadline:
 
@@ -28,7 +28,7 @@ While **React**, **PostgreSQL**, and **JWT Authentication** were explicitly requ
 
 ---
 
-## 🚀 Proper Installation Guide
+## Proper Installation Guide
 
 Follow these steps carefully to get the project running on your local machine.
 
@@ -98,11 +98,11 @@ The API is now running at `http://127.0.0.1:8000/`.
 
 ---
 
-## 📚 API Documentation (Swagger)
+## API Documentation (Swagger)
 
 Once the backend server is running, the **Interactive API Documentation** is automatically generated and hosted via Swagger UI.
 
-👉 **Access the Swagger API Docs here:** [http://127.0.0.1:8000/api/docs/](http://127.0.0.1:8000/api/docs/)
+**Access the Swagger API Docs here:** [http://127.0.0.1:8000/api/docs/](http://127.0.0.1:8000/api/docs/)
 
 From this interface, evaluators and developers can view all available endpoints, required payload structures, and even test API calls directly in the browser!
 
